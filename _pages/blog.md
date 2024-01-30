@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /chapters/
+permalink: / #chapters/
 title: chapters
 nav: true
 nav_order: 1
