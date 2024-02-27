@@ -238,11 +238,11 @@ Foundation models represent a significant shift in artificial intelligence, mark
 
 **Deep Learning**. The transition to deep learning, around 2010, marked a pivotal shift. Deep learning enabled computers to autonomously learn complex features and patterns directly from data, bypassing the need for human-guided feature design. This advancement significantly reduced the reliance on human expertise, paving the way for more universal and adaptable AI systems. As deep learning evolved, it led to an explosion of specialized models trained for distinct tasks, demonstrating the technology's vast potential across various domains.
 
-**Foundation Models: The Swiss Army Knives of AI. **Foundation models emerged in the mid-to-late 2010s, symbolizing a move away from the labor-intensive, one-model-per-task approach. These advanced AI systems are trained on vast, diverse datasets to learn broad patterns and skills, ready to be adapted to a multitude of tasks. Imagine them as the Swiss Army knives of the AI world: versatile tools that, with the right adjustments, can tackle everything from language translation to generating artwork. This paradigm shift towards foundation models introduced a more efficient strategy, leveraging large, unlabeled datasets to create models that can later be fine-tuned for specific needs.
+**Foundation Models: The Swiss Army Knives of AI**. Foundation models emerged in the mid-to-late 2010s, symbolizing a move away from the labor-intensive, one-model-per-task approach. These advanced AI systems are trained on vast, diverse datasets to learn broad patterns and skills, ready to be adapted to a multitude of tasks. Imagine them as the Swiss Army knives of the AI world: versatile tools that, with the right adjustments, can tackle everything from language translation to generating artwork. This paradigm shift towards foundation models introduced a more efficient strategy, leveraging large, unlabeled datasets to create models that can later be fine-tuned for specific needs.
 
 The term "foundation" aptly describes these models as the groundwork for more refined, task-specific applications. Like the foundation of a building, their reliability and strength are crucial. The versatility designed into these models means their performance in specific applications can be unpredictable, raising challenges in ensuring their stability, safety, and security. Yet, this approach also offers significant time and resource savings, highlighting the trade-offs involved in adopting foundation models.
 
-**Economics of Foundation Models. **This monumental shift was fueled by several factors: the explosion of data, advances in computational power, and refinements in machine learning techniques. But it’s important to understand the economic backdrop that has shaped the development of foundation models. These models are complex and resource-intensive, with their development, training, and deployment often requiring significant investment. The development of foundation models involves substantial costs, categorized into three main areas:
+**Economics of Foundation Models**. This monumental shift was fueled by several factors: the explosion of data, advances in computational power, and refinements in machine learning techniques. But it’s important to understand the economic backdrop that has shaped the development of foundation models. These models are complex and resource-intensive, with their development, training, and deployment often requiring significant investment. The development of foundation models involves substantial costs, categorized into three main areas:
 
 * **Data Acquisition**. The backbone of foundation models is the large-scale datasets they're trained on, often sourced from the internet. Collecting, cleaning, and updating these datasets can be expensive, especially for specialized or proprietary data.
 * **Computational Resources**. The sheer size of foundation models and the datasets used in their training demand significant computational resources, not just in terms of hardware but also the electricity needed for operation.
@@ -857,7 +857,7 @@ While it is true that AI has not yet achieved maximal robustness, for example be
 
 ## Shallow Understanding?
 
-**Stochastic Parrot: Do AIs only memorize information without truly compressing it?**
+### Stochastic Parrot: Do AIs only memorize information without truly compressing it?
 
 <div class="row mt-3">
   {% include figure.liquid path="assets/img/1_image15.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -885,7 +885,7 @@ AI is capable of compressing information, often in a relevant manner. For exampl
 
 It’s clear that LLMs are compressing their representations at least a bit. Many examples of impressive capabilities are presented in the work "The Stochastic Parrot Hypothesis is debatable for the last generation of LLMs", which shows that it cannot be purely a memorization. ([source](https://www.lesswrong.com/posts/HxRjHq3QG8vcYy4yy/the-stochastic-parrot-hypothesis-is-debatable-for-the-last))
 
-**Will LLMs Inevitably Hallucinate?**
+### Will LLMs Inevitably Hallucinate?
 
 LLMs are prone to "hallucinate," a term used to describe the generation of content that is nonsensical or factually incorrect in response to certain prompts. This issue, highlighted in studies such as "On Faithfulness and Factuality in Abstractive Summarization" by Maynez et al. and "TruthfulQA: Measuring How Models Mimic Human Falsehoods" by Lin et al., poses a significant challenge. However, it's important to see that these challenges are anticipated due to the training setup and can be mitigated:
 
@@ -922,7 +922,6 @@ It's worth noting that these techniques enable substantial problem mitigation fo
 </li>
 </ul>
 {% enddetails %}
-
 
 
 ## Structural inadequacy?
