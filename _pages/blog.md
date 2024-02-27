@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: / #chapters/
-title: chapters
+title: Chapters
 nav: true
 nav_order: 1
 pagination:

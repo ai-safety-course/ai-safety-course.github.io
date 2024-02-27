@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. 
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📒  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -122,7 +122,11 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Introduction to AI Safety # blog_name will be displayed in your blog page
-blog_description:
+blog_description: This textbook summarizes some key notions and papers in modern AI Safety, requiring minimal familiarity with the other materials covered. We tried to connect the various articles within a unified framework and coherent narrative.
+\
+The alignment problem is a pre-paradigmatic problem, and there is no consensus on some of the concepts presented. So please read critically and feel free to add feedback on this ([form](https://docs.google.com/forms/d/e/1FAIpQLSe-UI2pt99SHaH2RFPVbDdmo8nuiRBZcxl49rBh67Guj6_p5Q/viewform)) on the various chapters if something seems unclear. Some weeks start with a gentle introduction, which you should follow if you are unfamiliar with the concepts.
+\
+One of the best ways to use this textbook is in a reading group consisting of students or young researchers who gather periodically. You don't need to have a large group; a friend is enough, which allows you to discuss the concepts presented in the different chapters critically. If you want to create a reading group to facilitate this course, please get in touch.
 permalink: /chapters/:title/
 
 # Pagination
