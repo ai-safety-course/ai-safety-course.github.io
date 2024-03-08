@@ -77,8 +77,8 @@ d-article {
   d-contents {
     position: fixed;
     top: 0;
-    left: 0;
-    overflow-y: auto;
+    left: -500;
+    overflow: auto; ///overflow-y
     align-self: start;
     grid-column: 1 / 4; ///default: 1/4
     grid-row: auto / span 4;
