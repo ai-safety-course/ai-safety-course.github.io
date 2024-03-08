@@ -75,6 +75,7 @@ d-article {
   }
 
   d-contents {
+    position: sticky;
     align-self: start;
     grid-column: 1 / 4; ///default: 1/4
     grid-row: auto / span 4;
@@ -87,7 +88,6 @@ d-article {
     margin-right: 0px;
     margin-top: 0em;
     display: grid;
-    position: fixed;
     grid-template-columns:
       minmax(8px, 1fr) [toc] auto
       minmax(8px, 1fr) [toc-line] 1px
