@@ -75,7 +75,7 @@ d-article {
   }
 
   d-contents {
-    position: fixed;
+    position: sticky;
     top: 0;
     right: 0;
     overflow-y: auto;
