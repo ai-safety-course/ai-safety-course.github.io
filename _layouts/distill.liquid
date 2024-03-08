@@ -21,11 +21,7 @@
     {% if page._styles %}
       <!-- Page/Post style -->
       <style type="text/css">
-        {{ page._styles }}
-        .toc-float {
-          position: fixed;
-          color: orangered;
-        }
+        {{ page.styles | safe }}
       </style>
     {% endif %}
   </head>
