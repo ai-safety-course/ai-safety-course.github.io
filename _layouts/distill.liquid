@@ -22,6 +22,9 @@
       <!-- Page/Post style -->
       <style type="text/css">
         {{ page._styles }}
+        .toc-float {
+          position: sticky;
+        }
       </style>
     {% endif %}
   </head>
@@ -81,7 +84,7 @@
       <d-article>
         {% if page.toc %}
           <d-contents>
-            <nav class="l-text figcaption">
+            <nav class="l-text figcaption toc-float">
               <h3>Contents</h3>
               {% for section in page.toc %}
                 <div>
