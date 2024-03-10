@@ -77,27 +77,27 @@ d-article {
   d-contents {
     position: fixed;
     top: 0;
-    left: -500;
-    overflow: auto; ///overflow-y
+    left: 0; 
+    overflow-y: auto; ///overflow-y
     align-self: start;
-    grid-column: 1 / 4; ///default: 1/4
-    grid-row: auto / span 4;
+    ///grid-column: 1 / 4; ///default: 1/4
+    ///grid-row: auto / span 4;
     justify-self: end;
-    margin-top: 0em;
+    ///margin-top: 0em;
     padding-left: 2em;
     padding-right: 3em;
     border-right: 1px solid var(--global-divider-color);
     width: calc(max(100%, 300px));
-    margin-right: 0px;
+    ///margin-right: 0px;
     margin-top: 0em;
-    display: grid;
-    grid-template-columns:
-      minmax(8px, 1fr) [toc] auto
-      minmax(8px, 1fr) [toc-line] 1px
-      minmax(32px, 4fr);
+    display: block; ///grid;
+    ///grid-template-columns:
+      ///minmax(8px, 1fr) [toc] auto
+      ///minmax(8px, 1fr) [toc-line] 1px
+      ///minmax(32px, 4fr);
 
     nav {
-      grid-column: toc;
+      ///grid-column: toc;
       a {
         border-bottom: none !important;
         &:hover {
@@ -130,7 +130,7 @@ d-article {
     }
     toc-line {
       border-right: 1px solid var(--global-divider-color);
-      grid-column: toc-line;
+      ///grid-column: toc-line;
     }
   }
 
