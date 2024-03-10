@@ -76,9 +76,11 @@ d-article {
 
   d-contents {
     position: fixed;
-    top: 0;
+    top: 80px;
     left: 0; 
     overflow-y: auto; ///overflow-y
+    max-height: 80vh;
+    max-width: 35vh;
     align-self: start;
     ///grid-column: 1 / 4; ///default: 1/4
     ///grid-row: auto / span 4;
