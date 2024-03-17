@@ -159,7 +159,7 @@ d-appendix {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   d-article{
     d-contents {
       display: block;
@@ -174,5 +174,11 @@ d-appendix {
         grid-column: none;
       }
     }
+  }
+}
+
+@media(max-width: 768px) {
+  d-contents {
+    display: none !important;
   }
 }
