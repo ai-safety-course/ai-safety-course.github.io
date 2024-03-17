@@ -142,8 +142,8 @@ d-article {
 }
 
 @media screen and (max-width: 600px) {
-  .d-contents {
-      display: none;
+  .d-article {
+      display: none !important;
   }
 }
 
