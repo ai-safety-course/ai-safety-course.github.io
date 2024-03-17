@@ -178,7 +178,9 @@ d-appendix {
 }
 
 @media(max-width: 768px) {
-  d-contents {
-    display: none !important;
+  d-article{
+    d-contents {
+      display: none !important;
+    }
   }
 }
