@@ -136,6 +136,12 @@ d-article {
     }
   }
 
+  @media(max-width: 768px) {
+    d-contents {
+      display: none !important;
+    }
+  }
+
   d-footnote {
     scroll-margin-top: 66px;
   }
