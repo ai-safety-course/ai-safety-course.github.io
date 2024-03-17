@@ -136,12 +136,6 @@ d-article {
     }
   }
 
-  @media(max-width: 768px) {
-    d-contents {
-      display: none !important;
-    }
-  }
-
   d-footnote {
     scroll-margin-top: 66px;
   }
@@ -165,7 +159,7 @@ d-appendix {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   d-article{
     d-contents {
       display: block;
