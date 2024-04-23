@@ -172,6 +172,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  authors:
+    output: true
 
 announcements:
   enabled: true
